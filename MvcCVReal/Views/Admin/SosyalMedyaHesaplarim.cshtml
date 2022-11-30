@@ -1,0 +1,61 @@
+﻿@using MvcCVReal.Models.Entity
+@model List<TblSocialMediaAcc>
+@{
+    ViewData["Title"] = "SosyalMedyaHesaplarim";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<br />
+<h1>Sosyal Medya Hesaplarim</h1>
+<br />
+<button class="btn btn-primary" data-toggle="modal" data-target="#SocialEkle">Yeni Sosyal Medya Ekle</button>
+<br />
+<br />
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Sosyal Medya İsmi</th>
+        <th>Gösteriliyor</th>
+        <th>Sil</th>
+        <th>Düzenle</th>
+    </tr>
+    @foreach (var scls in Model)
+    {
+        <tr>
+            <td>@scls.Id</td>
+            <td>@scls.SosyalMedyaIsim</td>
+            <td>@scls.SosyalMedyaDurum</td>
+            <td><a class="btn btn-danger btn-sm" href="/Admin/SosyalMedyaSil/@scls.Id"><i class="fas fa-trash"></i>Sil</a></td>
+            <td><a class="btn btn-info btn-sm" href="/Admin/SosyalMedyaGüncelle/@scls.Id"><i class="fas fa-pencil-alt"></i>Güncelle</a></td>
+        </tr>
+    }
+</table>
+
+<div class="modal" id="SocialEkle">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Yeni Sosyal Medya Hesabı Ekle</h2>
+            </div>
+            <form method="post" asp-action="SosyalMedyaEkle" asp-controller="Admin">
+                <div class="modal-body">
+                    <label>Sosyal Medya İsmi</label>
+                    <input type="text" class="form-control" placeholder="Sosyal Medya İsmi" name="SosyalMedyaIsim">
+                    <br />
+                    <label>Sosyal Medya Url</label>
+                    <input type="text" class="form-control" placeholder="Sosyal Medya Url" name="SosyalMedyaUrl">
+                    <br />
+                    <label>Sosyal Medya Ikon</label>
+                    <a href="https://www.w3schools.com/icons/icons_reference.asp" target="_blank"><i class="fa fa-info-circle"></i></a>
+                    <input type="text" class="form-control" placeholder="Sosyal Medya Ikon (Sadece ismi yazın! Tüm adı değil!)" name="SosyalMedyaIkon">
+                    <br />
+                    <label for="SosyalMedyaDurum">Sosyal Medya Gösterilecek mi?</label>
+                    <select class="form-control" name="SosyalMedyaDurum">
+                        <option value="True">Evet</option>
+                        <option value="False">Hayır</option>
+                    </select>
+                    <button class="btn btn-primary">Hesabı Ekle</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

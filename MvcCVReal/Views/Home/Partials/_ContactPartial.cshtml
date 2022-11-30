@@ -1,0 +1,21 @@
+﻿@model MvcCVReal.Models.Entity.TblContact
+
+<div class="selection-content">
+    <form method="POST" asp-action="Contact" asp-controller="Home">
+        <h2 class="titles">İLETİŞİM</h2>
+        <label>Ad Soyad</label>
+        <input type="text" class="form-control" asp-for="GönderenAdSoyad">
+        <span asp-validation-for="GönderenAdSoyad"></span>
+        <label>Mail</label>
+        <input type="email" class="form-control" asp-for="GönderenMail">
+        <span asp-validation-for="GönderenMail"></span>
+        <label>Konu</label>
+        <input type="text" class="form-control" asp-for="GönderenMesajKonu">
+        <span asp-validation-for="GönderenMesajKonu"></span>
+        <label>Mesaj</label>
+        <input type="text" class="form-control" asp-for="GönderenMesaj">
+        <span asp-validation-for="GönderenMesaj"></span>
+        <br />
+        <button class="btn btn-info">Mesaj Gönder</button>
+    </form>
+</div>

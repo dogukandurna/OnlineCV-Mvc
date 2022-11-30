@@ -1,0 +1,18 @@
+﻿@using MvcCVReal.Models.Entity
+@model TblHobby
+@{
+    ViewData["Title"] = "YeniIlgiAlaniEkle";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<br />
+<h1>Yeni İlgi Alani Ekle</h1>
+<br />
+<form method="POST" asp-action="YeniIlgiAlaniEkle" asp-controller="Admin">
+    <input type="text" class="form-control" placeholder="İlgi Alanı" name="Aciklama1">
+    <span asp-validation-for="Aciklama1"></span>
+    <br />
+    <input type="text" class="form-control" placeholder="İlgi Alanı Açıklaması" name="Aciklama2">
+    <span asp-validation-for="Aciklama2"></span>
+    <br />
+    <button class="btn btn-info">Yeni İlgi Alanı Ekle</button>
+</form>

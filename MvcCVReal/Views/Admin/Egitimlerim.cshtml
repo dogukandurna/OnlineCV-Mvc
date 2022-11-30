@@ -1,0 +1,37 @@
+﻿@using MvcCVReal.Models.Entity
+@model List<TblEducation>
+@{
+    ViewData["Title"] = "Egitimlerim";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<br />
+<br />
+<h1>Eğitimlerim</h1>
+<br />
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Okul Adı</th>
+        <th>Okul Türü</th>
+        <th>Ünvan</th>
+        <th>Ortalama</th>
+        <th>Tarih</th>
+        <th>Sil</th>
+        <th>Düzenle</th>
+    </tr>
+    @foreach (var edus in Model)
+    {
+        <tr>
+            <td>@edus.Id</td>
+            <td>@edus.OkulAdı</td>
+            <td>@edus.OkulTür</td>
+            <td>@edus.Ünvan</td>
+            <td>@edus.Ortalama</td>
+            <td>@edus.Tarih</td>
+            <td><a class="btn btn-danger btn-sm" href="/Admin/EgitimSil/@edus.Id"><i class="fas fa-trash"></i>Sil</a></td>
+            <td><a class="btn btn-info btn-sm" href="/Admin/EgitimGüncelle/@edus.Id"><i class="fas fa-pencil-alt"></i>Güncelle</a></td>
+        </tr>
+    }
+</table>
+
+<a href="/Admin/YeniEgitimEkle/" class="btn btn-primary">Yeni Okul Ekle</a>

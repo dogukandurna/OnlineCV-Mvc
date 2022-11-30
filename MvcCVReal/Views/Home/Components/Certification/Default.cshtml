@@ -1,0 +1,15 @@
+﻿@using MvcCVReal.Models.Entity
+@model List<TblCertification>
+
+<div class="resume-section-content">
+    <h2 class="mb-5">Hediyeler & Sertifikalar</h2>
+    <ul class="fa-ul mb-0">
+        @foreach (var crtvalue in Model)
+        {
+            <li>
+                <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                @crtvalue.SertifikaAd
+            </li>
+        }
+    </ul>
+</div>

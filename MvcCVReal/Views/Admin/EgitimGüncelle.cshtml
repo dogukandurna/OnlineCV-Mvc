@@ -1,0 +1,33 @@
+﻿@using MvcCVReal.Models.Entity
+@model TblEducation
+
+@{
+    ViewData["Title"] = "EgitimGüncelle";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+<br />
+<h1>Egitim Güncelle</h1>
+<br />
+<form method="POST" asp-action="EgitimGüncelle" asp-controller="Admin">
+    <input type="text" class="form-control" placeholder="ID" asp-for="Id">
+    <span asp-validation-for="Id"></span>
+    <br />
+    <input type="text" class="form-control" placeholder="Okul Adı" asp-for="OkulAdı">
+    <span asp-validation-for="OkulAdı"></span>
+    <br />
+    <input type="text" class="form-control" placeholder="Okul Türü" asp-for="OkulTür">
+    <span asp-validation-for="OkulTür"></span>
+    <br />
+    <input type="text" class="form-control" placeholder="Ünvan" asp-for="Ünvan">
+    <span asp-validation-for="Ünvan"></span>
+    <br />
+    <input type="text" class="form-control" placeholder="Ortalama" asp-for="Ortalama">
+    <span asp-validation-for="Ortalama"></span>
+    <br />
+    <input type="text" class="form-control" placeholder="Tarih" asp-for="Tarih">
+    <span asp-validation-for="Tarih"></span>
+    <br />
+    <button class="btn btn-info">Güncelle</button>
+</form>

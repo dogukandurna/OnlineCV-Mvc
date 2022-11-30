@@ -1,0 +1,165 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MvcCVReal
+build_property.RootNamespace = MvcCVReal
+build_property.ProjectDir = C:\Users\Doğukan Durna\Desktop\YAZILIM\.NET CORE\MvcCVReal\MvcCVReal\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Doğukan Durna\Desktop\YAZILIM\.NET CORE\MvcCVReal\MvcCVReal
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Doğukan Durna/Desktop/YAZILIM/.NET CORE/MvcCVReal/MvcCVReal/Views/Admin/DeneyimGüncelle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVuZXlpbUfDvG5jZWxsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Doğukan Durna/Desktop/YAZILIM/.NET CORE/MvcCVReal/MvcCVReal/Views/Admin/Deneyimlerim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVuZXlpbWxlcmltLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Doğukan Durna/Desktop/YAZILIM/.NET CORE/MvcCVReal/MvcCVReal/Views/Admin/EgitimGüncelle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWdpdGltR8O8bmNlbGxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Doğukan Durna/Desktop/YAZILIM/.NET CORE/MvcCVReal/MvcCVReal/Views/Admin/Egitimlerim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWdpdGltbGVyaW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Doğukan Durna/Desktop/YAZILIM/.NET CORE/MvcCVReal/MvcCVReal/Views/Admin/Hakkimda.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSGFra2ltZGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Doğukan Durna/Desktop/YAZILIM/.NET CORE/MvcCVReal/MvcCVReal/Views/Admin/Iletisim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSWxldGlzaW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Doğukan Durna/Desktop/YAZILIM/.NET CORE/MvcCVReal/MvcCVReal/Views/Admin/IlgiAlaniGüncelle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSWxnaUFsYW5pR8O8bmNlbGxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Doğukan Durna/Desktop/YAZILIM/.NET CORE/MvcCVReal/MvcCVReal/Views/Admin/IlgiAlanlarim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSWxnaUFsYW5sYXJpbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Doğukan Durna/Desktop/YAZILIM/.NET CORE/MvcCVReal/MvcCVReal/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Doğukan Durna/Desktop/YAZILIM/.NET CORE/MvcCVReal/MvcCVReal/Views/Admin/SertifikaGüncelle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2VydGlmaWthR8O8bmNlbGxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Doğukan Durna/Desktop/YAZILIM/.NET CORE/MvcCVReal/MvcCVReal/Views/Admin/Sertifikalarim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2VydGlmaWthbGFyaW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Doğukan Durna/Desktop/YAZILIM/.NET CORE/MvcCVReal/MvcCVReal/Views/Admin/SosyalMedyaGüncelle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU29zeWFsTWVkeWFHw7xuY2VsbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Doğukan Durna/Desktop/YAZILIM/.NET CORE/MvcCVReal/MvcCVReal/Views/Admin/SosyalMedyaHesaplarim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU29zeWFsTWVkeWFIZXNhcGxhcmltLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Doğukan Durna/Desktop/YAZILIM/.NET CORE/MvcCVReal/MvcCVReal/Views/Admin/YeniDeneyimEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cWWVuaURlbmV5aW1Fa2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Doğukan Durna/Desktop/YAZILIM/.NET CORE/MvcCVReal/MvcCVReal/Views/Admin/YeniEgitimEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cWWVuaUVnaXRpbUVrbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Doğukan Durna/Desktop/YAZILIM/.NET CORE/MvcCVReal/MvcCVReal/Views/Admin/YeniIlgiAlaniEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cWWVuaUlsZ2lBbGFuaUVrbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Doğukan Durna/Desktop/YAZILIM/.NET CORE/MvcCVReal/MvcCVReal/Views/Admin/YeniSertifikaEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cWWVuaVNlcnRpZmlrYUVrbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Doğukan Durna/Desktop/YAZILIM/.NET CORE/MvcCVReal/MvcCVReal/Views/Admin/YeniYetenekEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cWWVuaVlldGVuZWtFa2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Doğukan Durna/Desktop/YAZILIM/.NET CORE/MvcCVReal/MvcCVReal/Views/Admin/YetenekGüncelle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cWWV0ZW5la0fDvG5jZWxsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Doğukan Durna/Desktop/YAZILIM/.NET CORE/MvcCVReal/MvcCVReal/Views/Admin/Yeteneklerim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cWWV0ZW5la2xlcmltLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Doğukan Durna/Desktop/YAZILIM/.NET CORE/MvcCVReal/MvcCVReal/Views/Home/Components/About/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb21wb25lbnRzXEFib3V0XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Doğukan Durna/Desktop/YAZILIM/.NET CORE/MvcCVReal/MvcCVReal/Views/Home/Components/Certification/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb21wb25lbnRzXENlcnRpZmljYXRpb25cRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Doğukan Durna/Desktop/YAZILIM/.NET CORE/MvcCVReal/MvcCVReal/Views/Home/Components/Education/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb21wb25lbnRzXEVkdWNhdGlvblxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Doğukan Durna/Desktop/YAZILIM/.NET CORE/MvcCVReal/MvcCVReal/Views/Home/Components/Experience/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb21wb25lbnRzXEV4cGVyaWVuY2VcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Doğukan Durna/Desktop/YAZILIM/.NET CORE/MvcCVReal/MvcCVReal/Views/Home/Components/Hobby/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb21wb25lbnRzXEhvYmJ5XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Doğukan Durna/Desktop/YAZILIM/.NET CORE/MvcCVReal/MvcCVReal/Views/Home/Components/NavbarProfile/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb21wb25lbnRzXE5hdmJhclByb2ZpbGVcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Doğukan Durna/Desktop/YAZILIM/.NET CORE/MvcCVReal/MvcCVReal/Views/Home/Components/Skill/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb21wb25lbnRzXFNraWxsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Doğukan Durna/Desktop/YAZILIM/.NET CORE/MvcCVReal/MvcCVReal/Views/Home/Components/SocialMedia/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb21wb25lbnRzXFNvY2lhbE1lZGlhXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Doğukan Durna/Desktop/YAZILIM/.NET CORE/MvcCVReal/MvcCVReal/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Doğukan Durna/Desktop/YAZILIM/.NET CORE/MvcCVReal/MvcCVReal/Views/Home/Partials/_ContactPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0aWFsc1xfQ29udGFjdFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Doğukan Durna/Desktop/YAZILIM/.NET CORE/MvcCVReal/MvcCVReal/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Doğukan Durna/Desktop/YAZILIM/.NET CORE/MvcCVReal/MvcCVReal/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Doğukan Durna/Desktop/YAZILIM/.NET CORE/MvcCVReal/MvcCVReal/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Doğukan Durna/Desktop/YAZILIM/.NET CORE/MvcCVReal/MvcCVReal/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Doğukan Durna/Desktop/YAZILIM/.NET CORE/MvcCVReal/MvcCVReal/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Doğukan Durna/Desktop/YAZILIM/.NET CORE/MvcCVReal/MvcCVReal/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Doğukan Durna/Desktop/YAZILIM/.NET CORE/MvcCVReal/MvcCVReal/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-fedkx053v7

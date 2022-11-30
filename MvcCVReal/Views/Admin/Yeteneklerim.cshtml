@@ -1,0 +1,29 @@
+﻿@using MvcCVReal.Models.Entity
+@model List<TblSkill>
+@{
+    ViewData["Title"] = "Yeteneklerim";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<br />
+<br />
+<h1>Yeteneklerim</h1>
+<br />
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Yetenek Adı</th>
+        <th>Sil</th>
+        <th>Düzenle</th>
+    </tr>
+    @foreach (var sklls in Model)
+    {
+        <tr>
+            <td>@sklls.Id</td>
+            <td>@sklls.Yetenekler</td>
+            <td><a class="btn btn-danger btn-sm" href="/Admin/YetenekSil/@sklls.Id"><i class="fas fa-trash"></i>Sil</a></td>
+            <td><a class="btn btn-info btn-sm" href="/Admin/YetenekGüncelle/@sklls.Id"><i class="fas fa-pencil-alt"></i>Güncelle</a></td>
+        </tr>
+    }
+</table>
+
+<a href="/Admin/YeniYetenekEkle/" class="btn btn-primary">Yeni Yetenek Ekle</a>

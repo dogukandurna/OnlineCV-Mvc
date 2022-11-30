@@ -1,0 +1,27 @@
+﻿@using MvcCVReal.Models.Entity
+@model TblExperience
+@{
+    ViewData["Title"] = "DeneyimGüncelle";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<br />
+<h1>Deneyim Güncelle</h1>
+<br />
+<form method="POST" asp-action="DeneyimGüncelle" asp-controller="Admin">
+    <input type="text" class="form-control" placeholder="ID" asp-for="Id">
+    <span asp-validation-for="Id"></span>
+    <br />
+    <input type="text" class="form-control" placeholder="İş Yeri Adı" asp-for="İşYeriAdı">
+    <span asp-validation-for="İşYeriAdı"></span>
+    <br />
+    <input type="text" class="form-control" placeholder="Ünvan" asp-for="Ünvan">
+    <span asp-validation-for="Ünvan"></span>
+    <br />
+    <input class="form-control" placeholder="Açıklama" asp-for="Aciklama"/>
+    <span asp-validation-for="Aciklama"></span>
+    <br />
+    <input type="text" class="form-control" placeholder="Tarih" asp-for="Tarih">
+    <span asp-validation-for="Tarih"></span>
+    <br />
+    <button class="btn btn-info">Güncelle</button>
+</form>

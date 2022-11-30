@@ -1,0 +1,13 @@
+﻿@using MvcCVReal.Models.Entity
+@model List<TblSocialMediaAcc>
+
+@{
+    Layout = null;
+}
+
+<div class="social-icons">
+    @foreach (var social in Model)
+    {
+        <a class="social-icon" href="@social.SosyalMedyaUrl"><i class="fab fa-@social.SosyalMedyaIkon"></i></a>
+    }
+</div>

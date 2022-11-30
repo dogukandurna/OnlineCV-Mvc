@@ -1,0 +1,18 @@
+﻿@using MvcCVReal.Models.Entity
+@model List<TblAbout>
+
+<div class="resume-section-content">
+    @foreach (var aboutvalues in Model)
+    {
+        <h1 class="mb-0">
+            @aboutvalues.Ad
+            <span class="text-primary">@aboutvalues.Soyad</span>
+        </h1>
+        <div class="subheading mb-5">
+            @aboutvalues.Adres · @aboutvalues.Telefon ·
+            <a href="mailto:@aboutvalues.Mail">@aboutvalues.Mail</a>
+        </div>
+        <p class="lead mb-5">@aboutvalues.Açıklama</p>
+        @await Component.InvokeAsync("SocialMedia")
+    }
+</div>

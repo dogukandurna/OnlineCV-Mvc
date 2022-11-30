@@ -1,0 +1,17 @@
+﻿@using MvcCVReal.Models.Entity
+@model List<TblExperience>
+
+<div class="resume-section-content">
+    <h2 class="mb-5">Deneyimler</h2>
+    @foreach (var explist in Model)
+    {
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="flex-grow-1">
+                <h3 class="mb-0">@explist.İşYeriAdı</h3>
+                <div class="subheading mb-3">@explist.Ünvan</div>
+                <p>@explist.Aciklama</p>
+            </div>
+            <div class="flex-shrink-0"><span class="text-primary">@explist.Tarih</span></div>
+        </div>
+    }
+</div>

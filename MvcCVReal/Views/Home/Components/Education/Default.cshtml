@@ -1,0 +1,18 @@
+﻿@using MvcCVReal.Models.Entity
+@model List<TblEducation>
+
+<div class="resume-section-content">
+    <h2 class="mb-5">Education</h2>
+    @foreach (var eduvalues in Model)
+    {
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="flex-grow-1">
+                <h3 class="mb-0">@eduvalues.OkulAdı</h3>
+                <div class="subheading mb-3">@eduvalues.OkulTür</div>
+                <div>@eduvalues.Ünvan</div>
+                <p>@eduvalues.Ortalama</p>
+            </div>
+            <div class="flex-shrink-0"><span class="text-primary">@eduvalues.Tarih</span></div>
+        </div>
+    }
+</div>

@@ -1,0 +1,30 @@
+﻿@using MvcCVReal.Models.Entity
+@model TblSocialMediaAcc
+@{
+    ViewData["Title"] = "SosyalMedyaGüncelle";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Sosyal Medya Güncelle</h1>
+<br />
+<form method="POST" asp-action="SosyalMedyaGüncelle" asp-controller="Admin">
+    <input type="text" class="form-control" placeholder="ID" asp-for="Id">
+    <span asp-validation-for="Id"></span>
+    <br />
+    <input type="text" class="form-control" placeholder="Sosyal Medya İsim" asp-for="SosyalMedyaIsim">
+    <span asp-validation-for="SosyalMedyaIsim"></span>
+    <br />
+    <input type="text" class="form-control" placeholder="Sosyal Medya Url" asp-for="SosyalMedyaUrl">
+    <span asp-validation-for="SosyalMedyaUrl"></span>
+    <a href="https://www.w3schools.com/icons/icons_reference.asp" target="_blank"><i class="fa fa-info-circle"></i></a>
+    <input type="text" class="form-control" placeholder="Sosyal Medya Ikon" asp-for="SosyalMedyaIkon">
+    <span asp-validation-for="SosyalMedyaIkon"></span>
+    <br />
+    <select class="form-control" asp-for="SosyalMedyaDurum">
+        <option value="True">Evet</option>
+        <option value="False">Hayır</option>
+    </select>
+    <span asp-validation-for="SosyalMedyaDurum"></span>
+    <br />
+    <button class="btn btn-info">Güncelle</button>
+</form>

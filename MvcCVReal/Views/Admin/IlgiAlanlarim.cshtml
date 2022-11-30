@@ -1,0 +1,30 @@
+﻿@using MvcCVReal.Models.Entity
+@model List<TblHobby>
+@{
+    ViewData["Title"] = "IlgiAlanlarim";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<br />
+<h1>İlgi Alanlarim</h1>
+<br />
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>İlgi Alanı</th>
+        <th>İlgi Alanı Açıklaması</th>
+        <th>Sil</th>
+        <th>Düzenle</th>
+    </tr>
+    @foreach (var hbbs in Model)
+    {
+        <tr>
+            <td>@hbbs.Id</td>
+            <td>@hbbs.Aciklama1</td>
+            <td>@hbbs.Aciklama2</td>
+            <td><a class="btn btn-danger btn-sm" href="/Admin/IlgiAlaniSil/@hbbs.Id"><i class="fas fa-trash"></i>Sil</a></td>
+            <td><a class="btn btn-info btn-sm" href="/Admin/IlgiAlaniGüncelle/@hbbs.Id"><i class="fas fa-pencil-alt"></i>Güncelle</a></td>
+        </tr>
+    }
+</table>
+
+<a href="/Admin/YeniIlgiAlaniEkle/" class="btn btn-primary">Yeni İlgi Alanı Ekle</a>

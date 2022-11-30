@@ -1,0 +1,15 @@
+﻿@using MvcCVReal.Models.Entity
+@model TblCertification
+@{
+    ViewData["Title"] = "YeniSertifikaEkle";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<br />
+<h1>Yeni Sertifika Ekle</h1>
+<br />
+<form method="POST" asp-action="YeniSertifikaEkle" asp-controller="Admin">
+    <input type="text" class="form-control" placeholder="Sertifika Adı" name="SertifikaAd">
+    <span asp-validation-for="SertifikaAd"></span>
+    <br />
+    <button class="btn btn-info">Yeni Sertifika Ekle</button>
+</form>

@@ -1,0 +1,26 @@
+﻿@using MvcCVReal.Models.Entity
+@model List<TblAbout>
+@{
+    ViewData["Title"] = "Hakkimda";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<h1>Hakkımda</h1>
+<br />
+<form method="post">
+@foreach (var abt in Model)
+{
+    <input type="text" class="form-control" placeholder="Ad" name="Ad" value="@abt.Ad" />
+    <br />
+    <input type="text" class="form-control" placeholder="Soyad" name="Soyad" value="@abt.Soyad" />
+    <br />
+    <input class="form-control" placeholder="Adres" name="Adres" value="@abt.Adres" />
+    <br />
+    <input type="text" class="form-control" placeholder="Telefon" name="Telefon" value="@abt.Telefon" />
+    <br />
+    <input type="text" class="form-control" placeholder="Mail" name="Mail" value="@abt.Mail" />
+    <br />
+    <textarea class="form-control" name="Açıklama" cols="30" rows="5">@abt.Açıklama</textarea>
+    <br />
+}
+    <button class="btn btn-info">Güncelle</button>
+</form>

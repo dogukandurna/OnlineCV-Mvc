@@ -1,0 +1,15 @@
+﻿@using MvcCVReal.Models.Entity
+@model TblSkill
+@{
+    ViewData["Title"] = "YeniYetenekEkle";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<br />
+<h1>Yeni Yetenek Ekle</h1>
+<br />
+<form method="POST" asp-action="YeniYetenekEkle" asp-controller="Admin">
+    <input type="text" class="form-control" placeholder="Yetenek" name="Yetenekler">
+    <span asp-validation-for="Yetenekler"></span>
+    <br />
+    <button class="btn btn-info">Yeni Yetenek Ekle</button>
+</form>
